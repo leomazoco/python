@@ -1,0 +1,7 @@
+CREATE SCHEMA `dbscript` ;
+
+CREATE TABLE `dbscript`.`vendas` (
+  `idvendas` INT NOT NULL AUTO_INCREMENT,
+  `nome_produto` VARCHAR(45) NOT NULL,
+  `valor` INT NOT NULL,
+  PRIMARY KEY (`idvendas`));
